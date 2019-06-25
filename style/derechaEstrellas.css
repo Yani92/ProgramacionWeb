@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .imagen {
+    border-left: solid 10px #024969;
+  }
+  
+  .imagen img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  

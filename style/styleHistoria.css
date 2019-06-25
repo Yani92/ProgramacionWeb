@@ -1,0 +1,77 @@
+body {
+
+    /* Ubicación de la imagen */
+
+    background-image: url(../img/10.jpg);
+
+    /* Para dejar la imagen de fondo centrada, vertical y
+    
+    horizontalmente */
+
+    background-position: center center;
+
+    /* Para que la imagen de fondo no se repita */
+
+    background-repeat: no-repeat;
+
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+    background-attachment: fixed;
+
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+div.transbox {
+    margin: 5px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    filter: alpha(opacity=60);
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    color: #000000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 120%;
+  }
+
+  h4{
+      font-size: 150%;
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  .img{
+    opacity: default;
+    margin: 10px;
+  }
+
+  .p{
+      text-align: center;
+}
+
+  h6{
+    font-size: small;
+    color: beige;
+}
+
+.i{
+    font-size: 150%;
+}
+
+ul{
+    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
